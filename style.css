@@ -7,13 +7,13 @@ h1#titulo{
     display: inline-block;
     position: relative;
     left: 45.9vw;
-    color: rgb(92, 253, 178);
+    color: rgb(3, 252, 136);
 }
 
 header{
     top: 0;
     width: 100%;
-    background-color: rgb(20, 13, 119); 
+    background-color: rgb(46, 7, 136); 
 }
 
 
@@ -78,6 +78,11 @@ h2#alturaU{
     margin-left: 10rem;
 }
 
+input{
+    text-align: center;
+    font-weight: bolder;
+}
+
 .leitura{
     color: white;
     text-align: justify;
@@ -110,6 +115,7 @@ footer{
 }
 
 footer p{
+    margin-left: 13rem;
     font-size: 1.1vw;
     color: rgb(0, 0, 0);
     text-align: center;

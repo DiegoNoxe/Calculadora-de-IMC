@@ -19,8 +19,10 @@ header{
 
 body{
     margin: 0;
-   background-image: linear-gradient(to right, black, rgb(1, 12, 24));
+   background-image: linear-gradient(to right, rgb(26, 0, 4), rgb(0, 14, 27));
 }
+
+
 
 
 
@@ -63,8 +65,8 @@ h2#alturaU{
 
 .buttonC{
     position: absolute;
-    left: 57rem;
-    top: 36rem;
+    left: 62rem;
+    top: 37rem;
 }
 
 #botao{
@@ -90,8 +92,44 @@ input{
     font-weight: bolder;
     margin-left: 47vw; 
     width: 15vw;
-    padding: 1rem;
 }
+
+
+/* Animações */
+
+.tracking-in-expand {
+	-webkit-animation: tracking-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+
+@-webkit-keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+/* Animações */
+
 
 .classe{
     top: 11vw;

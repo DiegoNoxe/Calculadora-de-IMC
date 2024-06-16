@@ -168,3 +168,80 @@ footer a {
 footer a:hover{
     color: brown;
 }
+
+
+
+
+
+/* Parte Responsiva */
+
+@media (min-width: 320px) and (max-height: 667px) 
+{
+img{
+    display: none;
+}
+.buttonC{
+    left: 10.1rem;
+    top: 32rem;
+}
+
+#botao{
+    font-size: 4.2vw;
+}
+.pesos, .idades, .alturas{
+    margin-left: 1rem;
+}
+
+
+h2#idadeU
+{
+    margin-left: 2rem;
+    margin-top: 36vw;
+    font-size: 5.5vw;
+    margin-bottom: 20px;
+
+}
+
+h2#pesoU
+{
+    margin-left: 2rem;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size: 5.5vw;
+}
+
+h2#alturaU
+{
+    margin-left: 2rem;
+    font-size: 5.5vw;
+    margin-bottom: 10px;
+    margin-top: 20px;
+
+}
+
+h2#result
+{
+    margin-left: 2rem;
+    font-size: 5.5vw;
+    margin-top: 20px;
+}
+
+h1#titulo{
+    left: 13.9vw;
+}
+
+footer p{
+    margin-left: 1rem;
+    font-size: 4vw;
+}
+
+
+.leitura{
+
+    font-size: 3vw;
+    font-weight: bolder;
+    margin-left: 38vw; 
+    width: 30vw;
+}
+
+}
